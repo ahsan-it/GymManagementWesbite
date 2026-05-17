@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    font-family:Arial, sans-serif;
+    color:#222;
+    background:#fff;
+  }
+  
+  /* Navigation */
+  
+  nav{
+    background:#0a0a0a;
+    padding:16px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+  .logo{
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:1px;
+  }
+  
+  .logo span{
+    color:#f97316;
+  }
+  
+  nav ul{
+    list-style:none;
+    display:flex;
+    gap:28px;
+  }
+  
+  nav ul li a{
+    color:#aaa;
+    text-decoration:none;
+    font-size:14px;
+  }
+  
+  nav ul li a:hover{
+    color:#f97316;
+  }
+  
+  /* Hero */
+  
+  .hero{
+    background:#0a0a0a;
+    padding:90px 20px;
+    text-align:center;
+    border-bottom:3px solid #f97316;
+  }
+  
+  .hero h1{
+    font-size:50px;
+    color:#fff;
+    margin-bottom:14px;
+  }
+  
+  .hero h1 span{
+    color:#f97316;
+  }
+  
+  .hero p{
+    font-size:17px;
+    color:#aaa;
+    margin-bottom:36px;
+  }
+  
+  .hero a{
+    background:#f97316;
+    color:#fff;
+    padding:14px 36px;
+    font-size:15px;
+    text-decoration:none;
+    border-radius:6px;
+    display:inline-block;
+  }
+  
+  .hero a:hover{
+    background:#ea6d10;
+  }
+  
+  /* Stats */
+  
+  .stats{
+    display:flex;
+    justify-content:center;
+    background:#f97316;
+    flex-wrap:wrap;
+  }
+  
+  .stat-item{
+    text-align:center;
+    padding:28px 56px;
+    border-right:1px solid #ea6d10;
+  }
+  
+  .stat-item:last-child{
+    border-right:none;
+  }
+  
+  .stat-item h2{
+    font-size:30px;
+    color:#fff;
+  }
+  
+  .stat-item p{
+    font-size:13px;
+    color:rgba(255,255,255,0.7);
+    margin-top:4px;
+  }
+  
+  /* Plans */
+  
+  .plans{
+    padding:64px 40px;
+    text-align:center;
+    background:#fff;
+  }
+  
+  .plans h2{
+    font-size:30px;
+    color:#111;
+    margin-bottom:6px;
+  }
+  
+  .subtitle{
+    color:#888;
+    font-size:14px;
+    margin-bottom:40px;
+  }
+  
+  .plans-grid{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  
+  .plan-card{
+    background:#fafafa;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:28px 24px;
+    width:270px;
+    text-align:left;
+  }
+  
+  .featured{
+    border:2px solid #f97316;
+    background:#fff8f4;
+  }
+  
+  .badge{
+    display:inline-block;
+    background:#f97316;
+    color:#fff;
+    font-size:11px;
+    padding:3px 10px;
+    border-radius:4px;
+    margin-bottom:10px;
+  }
+  
+  .plan-card h3{
+    font-size:18px;
+    color:#111;
+    margin-bottom:6px;
+  }
+  
+  .price{
+    font-size:26px;
+    font-weight:bold;
+    color:#111;
+    margin-bottom:4px;
+  }
+  
+  .price span{
+    font-size:13px;
+    font-weight:normal;
+    color:#888;
+  }
+  
+  .plan-card p{
+    font-size:13px;
+    color:#666;
+    margin-bottom:18px;
+    line-height:1.6;
+  }
+  
+  .plan-card ul{
+    list-style:none;
+  }
+  
+  .plan-card ul li{
+    font-size:13px;
+    color:#555;
+    padding:5px 0;
+    border-bottom:1px solid #eee;
+  }
+  
+  .plan-card ul li::before{
+    content:"✔ ";
+    color:#f97316;
+  }
+  
+  /* About */
+  
+  .about{
+    background:#f7f7f7;
+    padding:64px 40px;
+    display:flex;
+    gap:60px;
+    justify-content:center;
+    align-items:flex-start;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+  }
+  
+  .about-text{
+    max-width:420px;
+  }
+  
+  .about-text h2{
+    font-size:26px;
+    color:#111;
+    margin-bottom:14px;
+  }
+  
+  .about-text p{
+    font-size:15px;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:10px;
+  }
+  
+  .about-features{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    max-width:340px;
+  }
+  
+  .feature{
+    background:#fff;
+    border:1px solid #ddd;
+    border-left:3px solid #f97316;
+    border-radius:10px;
+    padding:18px;
+  }
+  
+  .feature h3{
+    font-size:15px;
+    color:#111;
+    margin-bottom:5px;
+  }
+  
+  .feature p{
+    font-size:13px;
+    color:#666;
+    line-height:1.6;
+  }
+  
+  /* Footer */
+  
+  footer{
+    background:#0a0a0a;
+    color:#888;
+    text-align:center;
+    padding:22px 20px;
+    font-size:13px;
+  }
+  
+  footer a{
+    color:#888;
+    text-decoration:none;
+    margin:0 8px;
+  }
+  
+  footer a:hover{
+    color:#f97316;
+  }
+  
+  /* Responsive */
+  
+  @media(max-width:768px){
+  
+    nav{
+      flex-direction:column;
+      gap:15px;
+    }
+  
+    nav ul{
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+  
+    .hero h1{
+      font-size:38px;
+    }
+  
+    .about{
+      flex-direction:column;
+      align-items:center;
+    }
+  
+  }
